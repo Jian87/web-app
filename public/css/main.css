@@ -53,3 +53,39 @@ hr{
 li a:hover{
 	color:red;
 }
+
+.searchContainer{
+	/* background-color: aqua; */
+	height: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+.search{
+	display: inline-block;
+	margin-top: 50px;
+	width: 25%;
+	background-color: #DFDCE3;
+}
+
+.search input{
+	height:30px;
+	border:none;
+	background-color: white;
+	border: 1px solid #ddd;
+	width: 80%;
+	float: left;
+}
+
+.search input::placeholder{
+	font-size:17px;
+}
+
+.search button{
+	width: 18%;
+	height: 30px;
+	background-color: #DFDCE3;
+	font-size: 17px;
+	border:none;
+	cursor: pointer;
+}
