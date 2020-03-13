@@ -10,6 +10,8 @@ ul{
 
 a{
 	text-decoration: none;
+	display: block;
+	color: #333333;
 }
 
 .advertisement{
@@ -26,31 +28,31 @@ a{
 .menu{
 	padding-right: 3em;
 }
-li{
+.header li{
 	float: right;
 	padding: 0.25em 1em;
 	position: relative; 
 }
 
-li a{
+.header li a{
 	color: black;
 	display: block;
 	font-size: 0.8em;
 	text-align: center;
 }
 
-li.shugang{
+.header li.shugang{
 	padding: 0.35em 0;
 	display: block;
 }
 
-hr{
+.header hr{
 	
 	height: 0.6em; 
 	width:0.5px;
 }
 
-li a:hover{
+.header li a:hover{
 	color:red;
 }
 
@@ -88,4 +90,137 @@ li a:hover{
 	font-size: 17px;
 	border:none;
 	cursor: pointer;
+}
+
+/*for the container*/
+div .container{
+	width: 100%;
+}
+
+.container div{
+	float: left;
+}
+div .side{
+	width: 19.6%;
+	min-width: 200px;
+	height: 600px;
+	border: solid black;
+	background-color: #f1f1f1;
+}
+
+.mid{
+	width: 60%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 600px;
+	min-width: 600px;
+	background-color: #f1f1f1;
+}
+
+/*for containner-left part*/
+.left-up {
+	width: 60%; 
+	height: 300px; 
+	background-color:white; 
+	margin: 1em 1em 1em 6em; 
+	text-align: left;
+}
+
+.left-menu{
+	padding-left: 1em; 
+	padding-top:0.6em;
+}
+
+.left-menu-item{
+	line-height: 1.2em; 
+	padding:0.2em 0.8em;
+}
+
+.left-bottom{
+	width: 60%; 
+	height: 200px; 
+	background-color:red; 
+	margin: 1em 1em 1em 6em; 
+}
+
+
+/* for container_right part*/
+.right{
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+.right-up{
+	width: 60%; height: 300px; 
+	background-color:white; 
+	margin:1em 0 1em 2em; 
+	text-align: center;
+}
+
+.logIn{
+	margin: 1em;
+}
+
+.welcome{
+	border-collapse: collapse; 
+	width:100%; 
+	padding-top: 4em; 
+	padding-left: 6em;
+}
+
+th.logo-pic{
+	vertical-align: bottom; 
+	padding-bottom: 0; 
+	padding-right: 0.3em;
+}
+
+th.logo-pic img{
+	border-radius: 50%;
+	max-height: 32px; 
+	max-width: 32px;
+}
+
+td.logIn-item-welcome{
+	text-align: left bottom;
+}
+
+td.logIn-item{
+	vertical-align: top; 
+}
+
+td.logIn-item-mid{
+	vertical-align: top;
+}
+
+td.logIn-item-logIn{
+	margin-left: 0;
+}
+
+td.logIn-item a:hover{
+	color:red;
+}
+
+td.logIn-item-mid{
+	margin-right: 0.2em;
+}
+
+.news{
+	width: 90%; 
+	margin-left: 1em;
+}
+
+.news-header{
+	text-align: left;
+}
+
+.news-item{
+	overflow: hidden;
+	width: inherit; 
+	padding-top: 0.5em;
+}
+
+.news-item-span{
+	margin-right: 0.6em; 
+	background-color: red; 
+	color: white;
 }
