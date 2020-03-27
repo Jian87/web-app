@@ -42,10 +42,10 @@ ul{
 }
 
 .header-btn{
-	padding-top: 1.2em; 
+	margin-top: 1.2em; 
 	cursor: pointer; 
 	float: right; 
-	padding-right: 1em; 
+	margin-right: 1em; 
 	border: 0; 
 	background-color: white;
 }
