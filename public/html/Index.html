@@ -2,168 +2,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Not yet</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Amason Alibaba Google Facebook" />
+	<title>Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    
 </head>
-<body>
-	<div class="advertisement">
-		
-	</div>
-	<div class="header">
-		<ul class="menu">
-			<li class="item logo">
-				<a href="">My Favorite</a>
-			</li>
-
-			<li class="item shugang">
-				<hr/>
-			</li>
 
 
-			<li class="item">
-				<a href="#home">Home</a>
-			</li>
+<body style="overflow-x: hidden;">
+	<div class = "page-content">
+
+        <div class="ad"></div>
+
+        <div class = "header">
+            <div class="top-menu">
+                <span class="logo-text"> this is logo</span>
+                <button class="header-btn" >my account</button>
+                <button class="header-btn" >my chart</button>
+            </div>
+        </div>
 
 
-			<li class="item shugang">
-				<hr/>
-			</li>
+
+        <div class="filter">
+            <ul class="filter-menu">
+                <li class="filter-menu-detail"><a>Jewelry</a></li>
+                <li class="filter-menu-detail"><a>Love & Engagement</a></li>
+                <li class="filter-menu-detail"><a>Watches</a></li>
+                <li class="filter-menu-detail"><a>Home & Accessories</a></li>
+                <li class="filter-menu-detail"><a>Fragrance</a></li>
+                <li class="filter-menu-detail"><a>Men’s</a></li>
+                <li class="filter-menu-detail"><a>Gifts</a></li>
+            </ul>
+        </div>
 
 
-			<li class="item">
-				<a href="#bestsellers">Best Sellers</a>
-			</li>
 
-			<li class="item shugang">
-				<hr/>
-			</li>
-			
-
-			<li class="item">
-				<a href="#todaysdeal">Today's Deals</a>
-			</li>
-
-			<li class="item shugang">
-				<hr/>
-			</li>
-
-			<li class="item">
-				<a href="#myorder">My Order</a>
-				<!-- <ul>
-					<li><a href="">return order</a></li>
-					<li><a href="">new order</a></li>
-				</ul> -->
-			</li>
-
-			<li class="item shugang">
-				<hr/>
-			</li>
-
-			<li class="item">
-				<a href="#customerservice">Customer Service</a>
-			</li>
-
-			<li class="item shugang">
-				<hr/>
-			</li>
-
-			<li class="item">
-				<a href="#signin">Hello, Sign in</a>
-			</li>
-
-		</ul>
-	</div>
-	
-	<div class="searchContainer">
-		<form class="search" action="action_page_php">
-			<input type="text" placeholder="Iphone12" name="search">
-			<button type="submit">Search</button>
-		</form>
-	</div>
+        <div class = "searchContainer">
+            <form class="search" action="action_page_php">
+				<input type="text" placeholder="Diamond Vine" name="search" id="search">
+				<button type="submit" id="search-btn">Search</button>
+			</form>
+        </div>
 
 
-	<div class="container">
-		<div class="side left">
-			<div class="left-up">
-				<ul class="left-menu">
-					<li class="left-menu-item">
-						<a href="#">Sneakers</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Denim</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Dresses</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Wathches</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Kitchen / Dining</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Cell Phones</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Books</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Sports / Outdoors</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Tech for your office</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Gifts</a>
-					</li>
-					<li class="left-menu-item">
-						<a href="#">Coupons</a>
-					</li>
-				</ul>
-			</div>
 
-			<div class="left-bottom">
-				<p>here insert a image</p>
-			</div>
-		</div>
+        <div class="main-content"> 
+            <div class="left"></div>
+            <div class="result">
+                <div class="sort">
+                    <span class="sort-text">Sort by: </span>
+                    <select class="sort-option" value="">
+                        <option>New To</option>
+                        <option>Price Low To High</option>
+                        <option>Price High To Low</option>
+                    </select>
+                </div>
+                <div class="container">
+                    <ul class="product-list">
+                        <li class="product-item"><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span  class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn" ><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn" ><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn" ><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <br>
+                        <li class="product-item"><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <br>
+                        <li class="product-item" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn" ><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <br>
+                        <li class="product-item" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn" ><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                        <li class="product-item product-item-right" ><img src="test.jpg" ><br><p>Tiffany hearwear gold wrap neckplace in 18k gold</p><button class="product-btn"><span class="price">$15,5000</span><span class="view-detail">View Details</span></button></li>
+                    </ul>
+                        <br>
+                        <button class="view-more-btn">View More</button>
+                        <br>
+                        <button class="return-top-btn">Back To Top</button>
+                    <div class="story">
+                        <h1 class="story-header">Discover Necklaces & Pendants</h1>
+                        <p class="story-descrp">Nothing accentuates the neckline like a Tiffany necklace. Discover stunning designs for every day, from shimmering diamond pendants to delicate gold necklaces.</p>
+                        <ul class="story-option-list">
+                            <li class="story-option"><a>Gold Necklaces & Pendants</a></li>
+                            <li class="story-option story-option-right"><a>Gold Necklaces & Pendants</a></li>
+                            <li class="story-option story-option-right"><a>Gold Necklaces & Pendants</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-		<div class="mid">
-	    	</div>
-
-		<div class="side right">
-			<div class="right-up">
-				<div class="logIn">
-					<table class="welcome">
-						<tr>
-							<th class="logo-pic" rowspan="2"><img src="download.png" alt="logo"></th>
-							<td class="logIn-item-welcome" colspan="3"><a href="">Welecome to here!</a></td>
-						</tr>
-						<tr>
-							<td class="logIn-item logIn-item-logIn"><a href="#">Log In</a></td>
-							<td class="logIn-item-mid">|</td>
-							<td class="logIn-item logIn-item-SignIn"><a href="#">Sign In</a></td>
-						</tr>
-					</table>
-				</div>
-				<div class="news">
-					<h4 class="news-header">Deal of the day</h4>
-					<ul class="news-details">
-						<li class="news-item" ><a href="#"><span class="news-item-span" >Hot</span>this is a test news for our web site, hahhahahhahahhahaha</a></li>
-						<li class="news-item" ><a href="#"><span class="news-item-span" >Hot</span>this is a test news for our web site, hahhahahhahahhahaha</a></li>
-						<li class="news-item" ><a href="#"><span class="news-item-span" >Hot</span>this is a test news for our web site, hahhahahhahahhahaha</a></li>
-						<li class="news-item" ><a href="#"><span class="news-item-span" >Hot</span>this is a test news for our web site, hahhahahhahahhahaha</a></li>
-					</ul>
-				</div>
-				<div class="helper"></div>
-			</div>
-			<div class="right-bottom"></div>
-		</div>
-	</div>
-
-	<div class="footer">
-		<p style="text-align: center; font-style: italic;color: white; padding-top: 0.5em;">This is footer</p>
-	</div>
-
+            <div class="right"></div>
+        </div>
+        
+        <div class="ad">
+        </div>
+        <div class="footer">
+            <div class="row final">
+                <p>Copyright &copy; 2020 UTD-CS6314 TEAM16 Share Project</p>
+                <p class="links"><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
+            </div>   
+        </div>
+    </div>
+    
 </body>
 </html>
