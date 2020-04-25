@@ -1,0 +1,20 @@
+create table product(
+id int not null auto_increment,
+src varchar(255) not null,
+name varchar(255) not null,
+description varchar(1600),
+display varchar(30) not null,
+category varchar(30) not null,
+price int not null,
+primary key(id)
+);
+
+
+CREATE TABLE IF NOT EXISTS `users` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `username` varchar(50) NOT NULL,
+ `email` varchar(50) NOT NULL,
+ `password` varchar(50) NOT NULL,
+ `trn_date` datetime NOT NULL,
+ PRIMARY KEY (`id`)
+ );
