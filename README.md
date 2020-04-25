@@ -1,7 +1,7 @@
 
 
 ##
-this is a school project. still working...
+this is a school project.
 =======
 ## web app development
 
