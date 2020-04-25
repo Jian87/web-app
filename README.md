@@ -1,3 +1,8 @@
+
+
+##
+this is a school project. still working...
+=======
 ## web app development
 
 This repository is a school project for practising database design and web programming. 
