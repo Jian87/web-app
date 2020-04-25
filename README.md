@@ -27,16 +27,26 @@ Please name your database 'project'.
 Please create table product, users, chart, order_history.
 
 ## MEAN File Description
+
+
 this is a very small but speed example of how to develep web app through MEAN Stack.
+
 Use [Node.js](https://nodejs.org/en/)with [Express.js](https://expressjs.com/) framework.
+
 Use [Mongodb](https://www.mongodb.com/) to store the data.
 
 ## Useful Documents For MEAN Stack
+
 Node.js: 
+
 https://www.udemy.com/blog/node-js-tutorial/
+
 https://nodejs.org/dist/latest-v6.x/docs/api/util.html
 
+
 Express routing: 
+
 https://expressjs.com/en/starter/basic-routing.html
+
 https://expressjs.com/en/guide/routing.html 
 
